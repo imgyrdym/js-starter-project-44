@@ -3,9 +3,9 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/2ea02651ecde98f4d4df/maintainability)](https://codeclimate.com/github/imgyrdym/js-starter-project-44/maintainability)
 
-##Games video:
+## Games video:
 
-###Brain-even:
+### Brain-even:
 
-####Successful game:
+#### Successful game:
 [![asciicast](https://asciinema.org/a/5SIdpN6q6O7peJstOc3Tx5f3z.svg)](https://asciinema.org/a/5SIdpN6q6O7peJstOc3Tx5f3z)
