@@ -21,6 +21,17 @@ const checkEveness = (randomNum) => {
 let number;
 let isEven;
 
+let name;
+
+const greeting = () => {
+    console.log('Welcome stranger!');
+
+    name = readlineSync.question('How do you call yourself? ');
+
+    console.log(`Hi ${name}!`);
+    console.log('Answer "yes" if the number is even, otherwise answer "no".');
+}
+
 const gotQuestion = () => {
     number = getRandomInt(100);
     console.log(`Question: ${number}`);
@@ -29,13 +40,7 @@ const gotQuestion = () => {
 
 // основная функция
 const gameEven = () => {
-    console.log('Welcome stranger!');
-
-    // // ждем вывод от пользователя
-    const name = readlineSync.question('How do you call yourself? ');
-
-    console.log(`Hi ${name}!`);
-    console.log('Answer "yes" if the number is even, otherwise answer "no".');  
+    greeting();    
   
     for (let count = 0; count < 3; count += 1) {
         gotQuestion();
