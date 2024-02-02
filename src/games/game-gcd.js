@@ -12,8 +12,8 @@ const checkAnswer = (num1, num2) => {
     
 };
 
-// ПЕРЕМЕННЫЕ ДЛЯ ИНДЕКСА:
 const gameRule = 'Find the greatest common divisor of given numbers.';
+
 // передаст в индекс следующие переменные: question - задачка; rightAnswer - ответ, который посчитала сама программа 
 const gameQA = () => {
     
@@ -32,4 +32,4 @@ const gameQA = () => {
 // ОСНОВНАЯ ФУНКЦИЯ
 const gameGCD = () => (game(gameRule, gameQA));
 
-export default gameGCD();
+export default gameGCD;

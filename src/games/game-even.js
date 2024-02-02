@@ -4,7 +4,6 @@ import getRandomInt from '../random.js';
 // проверка на четность
 const isEven = (num) => (num % 2 === 0);
 
-// ПЕРЕМЕННЫЕ ДЛЯ ИНДЕКСА:
 const gameRule = 'Answer "yes" if the number is even, otherwise answer "no".';
 // question - задачка; rightAnswer - ответ, который посчитала сама программа 
 const gameQA = () => {
@@ -16,7 +15,7 @@ const gameQA = () => {
    return [question, rightAnswer];
 };
 
-// ЩСНОВНАЯ ФУНКЦИЯ
+// ОСНОВНАЯ ФУНКЦИЯ
 const gameEven = () => (game(gameRule, gameQA));
 
 export default gameEven();
