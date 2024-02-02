@@ -2,6 +2,3 @@
 
 import greeting1 from '../src/cli.js';
 
-greeting1();
-
-
