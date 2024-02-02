@@ -2,9 +2,9 @@ import readlineSync from 'readline-sync';
 
 const game = (gameRule, gameQA) => {
 
-    console.log('Welcome stranger!');
-    const name = readlineSync.question('How do you call yourself? ');
-    console.log(`Hi ${name}!`);
+    console.log('Welcome to the Brain Games!');
+    const name = readlineSync.question('May I have your name? ');
+    console.log(`Hello, ${name}!`);
     console.log(`${gameRule}`);
 
     for (let count = 0; count < 3; count += 1) {
