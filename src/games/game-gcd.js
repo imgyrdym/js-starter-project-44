@@ -24,7 +24,7 @@ const gameQA = () => {
 
     const rightAnswer = checkAnswer(num1, num2);
 
-    // console.log(rightAnswer)
+    console.log(rightAnswer)
         
     return [question, rightAnswer];
 }
