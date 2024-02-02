@@ -4,9 +4,9 @@ import getRandomInt from '../random.js';
 const gameRule = 'What number is missing in the progression?';
 
 const gameQA = () => {
-  const firstProgression = getRandomInt(1, 20);
-  const stepProgression = getRandomInt(1, 10);
-  const lengthprogression = getRandomInt(5, 10);
+  const firstProgression = getRandomInt(20);
+  const stepProgression = getRandomInt(10);
+  const lengthprogression = getRandomInt(10);
   const hiddenNumberIndex = getRandomInt(0, lengthprogression - 1);
   let hiddenNumber = 0;
   const progression = [];
