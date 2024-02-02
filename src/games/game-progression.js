@@ -29,4 +29,4 @@ const gameQA = () => {
 // ОСНОВНАЯ ФУНКЦИЯ
 const gameProg = () => game(gameRule, gameQA);
 
-export default gameProg;
+export default gameProg();

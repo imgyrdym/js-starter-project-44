@@ -27,4 +27,4 @@ const gameQA = () => {
 // ОСНОВНАЯ ФУНКЦИЯ
 const gamePrime = () => game(gameRule, gameQA);
 
-export default gamePrime;
+export default gamePrime();
